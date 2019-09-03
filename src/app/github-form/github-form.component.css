@@ -1,25 +1,4 @@
-/* form{
-    background-color: 
-} */
-/* h1{
-    color:#2f4f4f;
-}
-input {
-    background-color:#2f4f4f;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    
-    opacity: 0.9;
-}
-input[type=submit] {
-    background-color: white;
-    color: white;
-    text-align: center;
-   
-} */
+
 
 input {
     width: 100%;
@@ -60,3 +39,6 @@ form {
    
 }
 
+.form-inline{
+    margin-top: 30px;
+  }
