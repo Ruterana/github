@@ -24,6 +24,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DateCountPipe } from './date-count.pipe';
 import { UserFormComponent } from './user-form/user-form.component';
+import { UpperCasePipe } from './upper-case.pipe';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { GithDirective } from './gith.directive';
 
 // import { DateCountPipe } from './date-count.pipe';
 @NgModule({
@@ -32,6 +35,9 @@ import { UserFormComponent } from './user-form/user-form.component';
    ProfileComponent,
    DateCountPipe,
    UserFormComponent,
+   UpperCasePipe,
+   StrikethroughDirective,
+   GithDirective,
   //  DateCountPipe,
  ],
  imports: [
