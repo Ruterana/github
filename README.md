@@ -3,7 +3,7 @@ github
 ## Author's information
 
 my name is Niyitanga charlene,Am the on who developed Quotes.<br>also am a student in moringa school.<br>to know more contact me throught my email:ncharlene38@gmail.com.<br>
-this Quote was created on 24.08.2019. and 
+this hithub was created on 1.9.2019. and 
 my phone number:+250783853580 or +250725353547.
 
 ## Description
