@@ -31,7 +31,7 @@ export class ReposRequestService {
        avatar_url:string;
    }
    let promise =new Promise((resolve,reject)=>{
-     this.http.get<ApiResponse>('https://api.github.com/users/'+user.name+'?access_token=c75170ad7128c57df8fc83e12a9e9163d488402d ').toPromise().then(response=>{
+     this.http.get<ApiResponse>('https://api.github.com/users/'+user.name+'?access_token=2ca138163fed9df9c5a7e603c54fe065138de72c ').toPromise().then(response=>{
          this.repos.repos=response.repos
          this.repos.following=response.following
          this.repos.followers=response.followers
