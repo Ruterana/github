@@ -15,10 +15,8 @@ import { GithDirective } from './gith.directive';
   declarations: [
     AppComponent,
     ProfileComponent,
-
     UserFormComponent,
     UpperCasePipe,
-
     GithDirective,
 
   ],

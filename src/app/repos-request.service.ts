@@ -8,20 +8,20 @@
 //   constructor() { }
 // }
 import {Injectable } from '@angular/core';
-import {Repository} from '../repository';
+import {Repository} from './repository';
 import {HttpClient} from '@angular/common/http';
-import {environment} from '../../environments/environment';
-import { User } from '../user';
+import {environment} from '../environments/environment';
+import {User} from './user';
 @Injectable({
  providedIn: 'root'
 })
-export class HttpRequestService {
+export class ReposRequestService {
  repos:Repository;
  constructor(private http:HttpClient) {
    this.repos=new Repository(0,0,0,new Date(),"","");
   }
   reposRequest(user){
-   // console.log(user)
+//    console.log(user)
    interface ApiResponse{
        repos:number;
        following:number;
@@ -31,7 +31,7 @@ export class HttpRequestService {
        avatar_url:string;
    }
    let promise =new Promise((resolve,reject)=>{
-     this.http.get<ApiResponse>('https://api.github.com/users/'+user.name+'?access_token=737f930bc7f4fe87c662f82cd1f55bc1bf518a6e').toPromise().then(response=>{
+     this.http.get<ApiResponse>('https://api.github.com/users/'+user.name+'?access_token=c75170ad7128c57df8fc83e12a9e9163d488402d ').toPromise().then(response=>{
          this.repos.repos=response.repos
          this.repos.following=response.following
          this.repos.followers=response.followers
